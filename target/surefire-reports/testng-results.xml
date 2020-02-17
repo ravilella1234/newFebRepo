@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing the Properties Files....]]>
+    </line>
+    <line>
+      <![CDATA[Opened the browser :-chrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url :-https://www.amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Seleted the option :- Books by using the locator :- searchDropdownBox]]>
+    </line>
+    <line>
+      <![CDATA[Entered the text :- Harry Potter By using the locator :- field-keyword]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on button by using the locator  :-//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21915" started-at="2020-02-17T13:20:48Z" finished-at="2020-02-17T13:21:10Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_008.amazon()[pri:0, instance:com.project.CarrierIT.testng.TC_008@5d47c63f]" name="amazon" class="com.project.CarrierIT.testng.TC_008"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="21915" started-at="2020-02-17T13:20:48Z" finished-at="2020-02-17T13:21:10Z">
+      <class name="com.project.CarrierIT.testng.TC_008">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.project.CarrierIT.testng.TC_008@5d47c63f]" name="startProcess" is-config="true" duration-ms="11975" started-at="2020-02-17T13:20:48Z" finished-at="2020-02-17T13:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing the Properties Files....]]>
+            </line>
+            <line>
+              <![CDATA[Opened the browser :-chrome]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url :-https://www.amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.project.CarrierIT.testng.TC_008@5d47c63f]" name="amazon" duration-ms="7893" started-at="2020-02-17T13:21:00Z" finished-at="2020-02-17T13:21:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Seleted the option :- Books by using the locator :- searchDropdownBox]]>
+            </line>
+            <line>
+              <![CDATA[Entered the text :- Harry Potter By using the locator :- field-keyword]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on button by using the locator  :-//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.project.CarrierIT.testng.TC_008@5d47c63f]" name="endProcess" is-config="true" duration-ms="1973" started-at="2020-02-17T13:21:08Z" finished-at="2020-02-17T13:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.project.CarrierIT.testng.TC_008 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

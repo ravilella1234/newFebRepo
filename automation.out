@@ -1,0 +1,8 @@
+Retrying test amazon with status FAILURE for the 1 time(s).
+Retrying test amazon with status FAILURE for the 2 time(s).
+Initializing the Properties Files....
+Opened the browser :-chrome
+Navigated to url :-https://www.amazon.in
+Seleted the option :- Books by using the locator :- searchDropdownBox
+Entered the text :- Harry Potter By using the locator :- field-keyword
+Clicked on button by using the locator  :-//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
